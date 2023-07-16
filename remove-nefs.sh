@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# I use this script to automatically remove .nef files once I remove the corresponding .jpg files.
+# TODO:
+# - option for dry run
+# - better argument checks
+
 # chekc if arguments was passed
 if [ $# -lt 3 ] ; then
   echo "Missing arguments. Provide directory to check, extension to keep and extension to delete";
